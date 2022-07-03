@@ -1,0 +1,17 @@
+current intergartion ci = jenkins
+(optional) otopus dpolyment
+Configuration management = Ansible
+Infrastructure provisioning = Terraform
+chef,puppet & arm templates
+scripting = bash scripting / python scripting
+
+Cloud using AWS
+AWS routes53
+AWS EC2
+AWS S3
+AWS EFS (eleastic file system)
+AwS Cloud Watch
+
+
+Kubernative
+Docker

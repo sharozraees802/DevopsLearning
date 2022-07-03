@@ -1,0 +1,59 @@
+Install Docker
+https://docs.docker.com/engine/install/ubuntu/
+
+Start Docker
+systemctl start docker
+
+Run HelloWorld Container
+sudo docker run hello-world
+
+
+process check command
+
+ ps -ef
+
+seacrh a specific process
+
+ ps -ef | grep dock
+
+ps -A | grep dock
+
+ps -A | grep cont
+
+
+nginx
+only pull the image
+docker pull nginx
+
+pull and run bot 
+
+docker run nginx // container run not in a backgroud
+
+docker run -d nginx // container run  in a backgroud use a port 80
+
+docker run -p -d nginx // not run on 80 use a random port
+
+docker ps // check container information
+docker ps -a // check all container information
+
+docker kill [container id]
+
+docker rmi IMAGE ID // remove specific image
+
+docker rm $(docker ps --no-trunc -aq) // all container kill
+
+docker container prune // this command remve all container
+
+docker container stop $(docker container ls -aq) // stop all runing container
+
+docker stats // show all static
+
+docker --name zxc run -p -d nginx //docker run with a custom namedocked 
+
+docker run -d centos //new image
+
+docker run -d centos /usr/bin/top -b// centos not be run first build and run 
+
+docker attach [ container name]
+
+
